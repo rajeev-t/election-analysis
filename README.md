@@ -68,7 +68,7 @@ The analysis of the election show that:
 We believe that we've created an easy-to-understand program to generate a straightforward report on any U.S. congressional election; as long as the scope of data is maintained. Obviously, if more parameters for analysis such as voter age were to also be given, we would have to add more code for those areas. However, this raises an important point regarding the modifications that would improve the output of this program. 
 
 We can suggest at least two improvements:
-1. Instead of writing to a .txt file, we could be writing to a .csv .xslx file. This would allow us to directly interact with the data to create visualizations. While one may argue that a .txt file would be simpler to convey, we think that charts and tabular data are visually more assistive and appealing for comprehension. 
+1. Instead of writing to a .txt file, we could be writing to a .csv file. This would allow us to directly interact with the data to create visualizations. While one may argue that a .txt file would be simpler to convey, we think that charts and tabular data are visually more assistive and appealing for comprehension. 
 
 2. We believe that our program could've been organized better. Some observations regarding the winner were spread out among multiple variables like the ones on line 25-34 of the [challenge program](PyPoll_Challenge_starter_code.py):
 
